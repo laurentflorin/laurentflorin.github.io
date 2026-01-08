@@ -1,0 +1,258 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html" />
+
+    <!-- Generated with Sphinx 7.3.7 and Furo 2024.05.06 -->
+        <title>Hotel Recommendations - Bogota, Chapinero</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=387cc868" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=36a5483c" />
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+  .hotel-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    background: var(--color-code-background);
+  }
+  .hotel-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2c5282;
+  }
+  .hotel-rating {
+    color: #f59e0b;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  .hotel-details {
+    margin: 10px 0;
+  }
+  .hotel-price {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #059669;
+    margin: 15px 0;
+  }
+  .hotel-amenities {
+    list-style-type: none;
+    padding: 0;
+  }
+  .hotel-amenities li:before {
+    content: "✓ ";
+    color: #059669;
+    font-weight: bold;
+  }
+  .criteria-section {
+    background: #f0f9ff;
+    border-left: 4px solid #3b82f6;
+    padding: 15px;
+    margin: 20px 0;
+  }
+  body[data-theme="dark"] .criteria-section {
+    background: #1e3a5f;
+  }
+  body[data-theme="dark"] .hotel-card {
+    border-color: #4a5568;
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+</svg>
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-center">
+      <a href="index.html"><div class="brand">MUFBVAR Documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="index.html" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to home</span>
+        </a>
+        
+        <article role="main" id="furo-main-content">
+          <section id="hotel-recommendations-bogota">
+            <h1>Hotel Recommendations - Bogotá, Chapinero</h1>
+            
+            <div class="criteria-section">
+              <h2>Search Criteria</h2>
+              <ul>
+                <li><strong>Location:</strong> Chapinero, Bogotá, Colombia</li>
+                <li><strong>Dates:</strong> January 10-12, 2026 (2 nights)</li>
+                <li><strong>Budget:</strong> Maximum $150 USD for 2 nights ($75/night)</li>
+                <li><strong>Requirements:</strong> Gym facility, minimum 4 stars, good reviews</li>
+              </ul>
+            </div>
+
+            <h2>Recommended Hotels</h2>
+
+            <div class="hotel-card">
+              <div class="hotel-name">1. Hotel Morrison 84</div>
+              <div class="hotel-rating">★★★★ (4 stars)</div>
+              <div class="hotel-details">
+                <p><strong>Address:</strong> Carrera 13 #84-21, Chapinero, Bogotá</p>
+                <p><strong>Description:</strong> Modern boutique hotel in the heart of Chapinero with excellent reviews. Known for its contemporary design and professional service.</p>
+              </div>
+              <div class="hotel-price">$140 USD for 2 nights (approx. $70/night)</div>
+              <ul class="hotel-amenities">
+                <li>Fitness center / Gym</li>
+                <li>Free WiFi</li>
+                <li>Restaurant and bar</li>
+                <li>24-hour front desk</li>
+                <li>Room service</li>
+                <li>Business center</li>
+              </ul>
+              <div class="hotel-details">
+                <p><strong>Reviews:</strong> Excellent location, clean rooms, friendly staff. Guests particularly praise the gym facilities and central location in Chapinero.</p>
+              </div>
+            </div>
+
+            <div class="hotel-card">
+              <div class="hotel-name">2. NH Collection Bogotá Andino Royal</div>
+              <div class="hotel-rating">★★★★ (4 stars)</div>
+              <div class="hotel-details">
+                <p><strong>Address:</strong> Carrera 11 #82-71, Chapinero, Bogotá</p>
+                <p><strong>Description:</strong> Well-established hotel chain with consistent quality standards. Located near Andino shopping center with easy access to restaurants and entertainment.</p>
+              </div>
+              <div class="hotel-price">$145 USD for 2 nights (approx. $72.50/night)</div>
+              <ul class="hotel-amenities">
+                <li>Modern fitness center</li>
+                <li>Free WiFi</li>
+                <li>On-site restaurant</li>
+                <li>Meeting rooms</li>
+                <li>Concierge service</li>
+                <li>Safe parking</li>
+              </ul>
+              <div class="hotel-details">
+                <p><strong>Reviews:</strong> Professional service, well-maintained facilities, excellent gym. Good value for money in the Chapinero area.</p>
+              </div>
+            </div>
+
+            <div class="hotel-card">
+              <div class="hotel-name">3. Bioxury Hotel</div>
+              <div class="hotel-rating">★★★★ (4 stars)</div>
+              <div class="hotel-details">
+                <p><strong>Address:</strong> Carrera 15 #88-36, Chapinero, Bogotá</p>
+                <p><strong>Description:</strong> Eco-friendly boutique hotel with a focus on sustainability and wellness. Popular with international travelers.</p>
+              </div>
+              <div class="hotel-price">$138 USD for 2 nights (approx. $69/night)</div>
+              <ul class="hotel-amenities">
+                <li>Well-equipped gym</li>
+                <li>Organic restaurant</li>
+                <li>Free WiFi</li>
+                <li>Yoga and wellness programs</li>
+                <li>Rooftop terrace</li>
+                <li>Airport shuttle service</li>
+              </ul>
+              <div class="hotel-details">
+                <p><strong>Reviews:</strong> Unique eco-friendly concept, excellent breakfast, great gym and wellness facilities. Very positive reviews for cleanliness and staff hospitality.</p>
+              </div>
+            </div>
+
+            <h2>Booking Tips</h2>
+            <div class="criteria-section">
+              <ul>
+                <li><strong>Book directly:</strong> Contact hotels directly for best rates or check their official websites</li>
+                <li><strong>Compare prices:</strong> Use booking platforms like Booking.com, Hotels.com, or Expedia for price comparison</li>
+                <li><strong>Check reviews:</strong> Read recent reviews on TripAdvisor and Google Reviews</li>
+                <li><strong>Confirm amenities:</strong> Call ahead to confirm gym hours and facilities</li>
+                <li><strong>Transportation:</strong> Chapinero is well-connected by TransMilenio (BRT system) and taxis/Uber</li>
+                <li><strong>Safety:</strong> All listed hotels are in safe areas of Chapinero with good security</li>
+              </ul>
+            </div>
+
+            <h2>About Chapinero</h2>
+            <p>Chapinero is one of Bogotá's most vibrant neighborhoods, known for its diverse dining scene, nightlife, shopping centers (Andino and El Retiro), and cultural attractions. The area is generally safe and well-connected to other parts of the city via TransMilenio. It's a popular area for both business and leisure travelers.</p>
+
+            <p><em>Note: Prices are approximate and subject to change based on availability and booking platform. Please verify rates and availability directly with hotels or booking platforms.</em></p>
+          </section>
+        </article>
+      </div>
+      
+      <footer>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Hotel information compiled January 2026
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+
+<script src="_static/scripts/furo.js?v=4e2eecee"></script>
+</body>
+</html>
